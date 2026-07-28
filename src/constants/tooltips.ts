@@ -59,4 +59,9 @@ export const TOOLTIP_SETS = {
     { id: 3, name: "", designation: "CSS", image: "/projectIcons/cssProject.svg" },
     { id: 4, name: "", designation: "Figma", image: "/projectIcons/figmaProject.svg" },
   ],
+  unityGame: [
+    { id: 1, name: "", designation: "Unity", image: "/LOGOS/UnityLogo.png" },
+    { id: 2, name: "", designation: "C#", image: "/LOGOS/Csharp.png" },
+  ],
+  comingSoon: [],
 };

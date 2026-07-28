@@ -25,6 +25,7 @@ import SolidityLogo from '../../../public/LOGOS/solidity.svg';
 import NodejsLogo from '../../../public/LOGOS/nodejs.png';
 import GithubLogo from '../../../public/LOGOS/github2.svg';
 import CsharpLogo from '../../../public/LOGOS/Csharp.png';
+import UnityLogo from '../../../public/LOGOS/UnityLogo.png';
 
 
 export function SkillsMarquee() {
@@ -155,6 +156,11 @@ const testimonials = [
   },
   {
     quote: <Image src={CsharpLogo} alt="C#" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
+    name: "",
+    title: "",
+  },
+  {
+    quote: <Image src={UnityLogo} alt="Unity" loading="lazy" className="transition-transform hover:scale-110 cursor-pointer" />,
     name: "",
     title: "",
   },

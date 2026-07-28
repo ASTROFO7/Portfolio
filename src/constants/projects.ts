@@ -72,5 +72,21 @@ export const projectsData: ProjectData[] = [
     description: "Contributed to the redesign and modernization of the international repair service's web application during my apprenticeship, improving usability, performance, and overall user experience. Working with a modern web technology stack, I helped streamline workflows, enhance the interface, and create a more efficient and intuitive platform for employees.",
     tooltipType: "webappteck",
     className: "",
+  },
+  {
+    id: 9,
+    image: "/LOGOS/UnityLogo.png",
+    title: "Unity Game",
+    description: "A game built with Unity and C#, exploring core game development concepts such as gameplay mechanics, physics, and interactive systems. This project helped me deepen my understanding of the Unity engine and object-oriented programming with C#.",
+    tooltipType: "unityGame",
+    className: "",
+  },
+  {
+    id: 10,
+    image: "/images/Unknown.png",
+    title: "Coming Soon",
+    description: "A new project is currently in the works. Stay tuned for more details as it takes shape!",
+    tooltipType: "comingSoon",
+    className: "",
   }
 ];

@@ -9,7 +9,7 @@ export interface ProjectData {
   image: string;
   title: string;
   description: string;
-  tooltipType: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame' | 'cryptoCasino' | 'gymcoachAI' | 'webappteck';
+  tooltipType: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame' | 'cryptoCasino' | 'gymcoachAI' | 'webappteck' | 'unityGame' | 'comingSoon';
   className?: string;
   githubLink?: string;
   liveLink?: string;
@@ -23,7 +23,7 @@ export interface TooltipItem {
 }
 
 export interface ProjectTooltipProps {
-  type: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame' | 'cryptoCasino' | 'gymcoachAI' | 'webappteck';
+  type: 'portfolio' | 'intranet' | 'gallery' | 'weatherApp' | 'robloxGame' | 'cryptoCasino' | 'gymcoachAI' | 'webappteck' | 'unityGame' | 'comingSoon';
 }
 
 export interface ProjectCardProps {
