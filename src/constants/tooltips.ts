@@ -63,5 +63,8 @@ export const TOOLTIP_SETS = {
     { id: 1, name: "", designation: "Unity", image: "/LOGOS/UnityLogo.png" },
     { id: 2, name: "", designation: "C#", image: "/LOGOS/Csharp.png" },
   ],
-  comingSoon: [],
+  comingSoon: [
+    { id: 1, name: "", designation: "", image: "/images/Unknown.png" },
+    { id: 2, name: "", designation: "", image: "/images/Unknown.png" },
+  ],
 };
