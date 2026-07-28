@@ -73,8 +73,14 @@ const content = [
     description:
       "I am set to complete my apprenticeship between June and July. After graduating, I hope to continue expanding my skills and gaining new experience as a developer. I want to keep learning, take on new challenges, and grow both personally and professionally. I'm excited to explore new perspectives, contribute to meaningful projects, and continue developing my craft in the world of software development.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+      <div className="h-full w-full bg-black flex items-center justify-center text-white">
+        <Image
+          src="/images/IHKZeugnis.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-contain"
+          alt="IHK Zeugnis"
+        />
       </div>
     ),
   },
